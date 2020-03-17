@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/rutas.js"
+    "start": "node ./src/validation/users.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "yup": "^0.28.3"
   }
 }
